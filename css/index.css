@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;1,300;1,700&family=Noto+Sans+KR:wght@100;300&display=swap');
+
+* {margin: 0; padding:0; box-sizing: border-box;}
+
+body { font-family: 'Montserrat'; font-size: 16px; line-height: 1.5; color: rgb(34, 34, 34); font-weight: 200; letter-spacing: -0.45px; }
+
+a { text-decoration: none;}
+a:hover { color: rgb(194, 122, 52);}
+
+h1 { font-family: 'Montaga'; font-size: 96px; font-weight: 400;  letter-spacing: -1.92px; line-height: 1; color: rgb(255, 255, 255);} 
+
+h2 { font-family: 'Montaga'; font-size: 60px; font-weight: 400;  letter-spacing: -1.5px; line-height: 1; } 
+
+h3 { font-family: 'Montserrat', 'Noto Sans KR', sans-serif; font-size: 22px;font-weight: 100; }
+
+h4 { font-family: 'Montaga'; font-size: 22px; font-weight: 100; }
+
+h5 { font-family: 'Montserrat', 'Noto Sans KR', sans-serif; font-weight: 400; letter-spacing: 4.8px; line-height: 1.2; font-size: 16px; }
+
+p {font-family: 'Montserrat', 'Noto Sans KR', sans-serif; }
+
+div, ul, li { background-size: cover; background-repeat: no-repeat; background-position: center center;}
+
+ul, ol, dl {list-style: none;}
+
+
+
+/* Header Part */
+.gnb_wrap { width: 100%; height: 130px; background-color: rgba(255,255,255,0.8); display: flex; justify-content: space-between; padding: 0 2.5%; align-items: center; position: fixed;}
+
+.gnb_menu_a { padding: 0 43px; height: 100%; font-family: 'Montserrat'; font-size: 22px; letter-spacing: -0.5px; color: rgb(0, 0, 0); line-height: 22px; font-weight: 400;}
+
+.gnb_logo_img {width: 127.5px;}  
+
+.gnb_hidden_menu { width: 127.5px; text-align: right;}   
+
+
+
+/* Hero Part */
+.hero_wrap {width: 100%; height: 100vh; background-image: url(../img/visual04.jpg); display: flex; justify-content: center; align-items: center; }
+
+.hero_title  {text-align: center; color: white}
+
+.margin_b_10 {margin-bottom: 10px;}
+.margin_b_20 {margin-bottom: 20px;}   
+.margin_b_50 {margin-bottom: 50px;}
+
+.fs_18 {font-size: 18px;}
+.fs_20 {font-size: 20px;}
+.fs_22 {font-size: 22px;}
+
+.text_center {text-align: center;}
+.c_point { color: rgb(194, 122, 52); }
+
+.hero_reservation { width: 230px; height: 70px; border: 1px solid white; color: white; display: flex; justify-content: center; align-items: center; position: absolute; top: 150px; right: 100px;}
+
+.hero_reservation_img {width: 20px; margin-right: 20px;}
+
+.hero_reservation_a {color: white;}
+
+
+
+
+/* Main Info Part */
+
+/* margin: auto;로 가운데로 배치 가능 */
+.main_info_wrap {width: 100%; height: 680px; padding: 180px 0 0 0; display: flex; justify-content: center;  }
+
+.main_info { width: 1700px; height: 500px; display: flex; }
+
+.main_info_text {width:50%; height: 100%; padding: 100px 0 0 10%; }
+
+.main_info_img { width: 50%; height: 100%; background-image: url(../img/mi_img01.jpg);}
+
+
+
+
+
+/* Main Menu CSS */
+.main_menu_wrap {width: 100%; height: auto; padding: 180px 0 0 0; display: flex; justify-content: center;  }
+.main_menu { width: 1720px; height: auto; }
+.main_menu_ul {width: 100%; display: flex;}
+.main_menu_li {width: 410px; height:500px; margin: 0 10px; padding: 20px; color: white; display: flex; flex-direction: column; justify-content: space-between;}
+
+/* css 선택자 사용 */
+.main_menu_ul li:nth-child(1) {background-image: url(../img/menu01.jpg); margin: 68px 10px 30px;}
+.main_menu_ul li:nth-child(2) {background-image: url(../img/menu02.jpg);}
+.main_menu_ul li:nth-child(3) {background-image: url(../img/menu03.jpg);margin: 68px 10px 30px;}
+.main_menu_ul li:nth-child(4) {background-image: url(../img/menu04.jpg);}
+
+.main_menu_li_title { border-bottom: 1px solid rgba(255, 255, 255, 1); padding: 0 0 20px; display: flex; justify-content: space-between; margin: 0 10px; align-items: center;}
+.main_menu_li_menu {border-top: 1px solid rgba(255, 255, 255, 1); padding: 20px 0 0; display: flex; }
+.main_menu_li_menu_1, .main_menu_li_menu_2  {width: 50%;}
+.main_menu_li_menu div:nth-child(2) {border-left: 1px solid rgba(255, 255, 255, 0.3); padding: 0 0 0 30px;}
+.main_menu_li_title span { font-family: 'Montaga'; font-size: 26px; font-weight: 400; letter-spacing: -0.65px; line-height: 39px;}
+.main_menu_li_title span:nth-child(2) {width: 30px; height: 30px; background-color: white; border-radius: 15px; display: flex; justify-content: center; align-items:center; color: rgb(150, 150, 150); line-height: 25px; font-size: 26px;}
+
+.width_40p {width: 40%;}
+.width_60p {width: 60%;}
+
+
+
+
+
+
+/* Main People CSS */
+.main_people_wrap { width:100%; height: auto; padding:180px 0 0;}
+
+.main_people {width:1700px; height: auto; display: flex; flex-wrap: wrap; margin: 0 auto;}
+.main_people_1 {width: 824px; height: 590px; display: flex; }
+.main_people_1_img {width: 470px; height: 590px; background-image: url(../img/mp_img01.jpg);}
+.main_people_1_text {width: 420px; height:290px; background-color: white; margin: 310px 0 0 -45px; padding: 66px 0 0 66px;}
+
+.main_people_position {font-family: 'Montaga';}
+.main_people_name_kor {font-size: 34px; letter-spacing: -0.85px; font-family: 'Noto Sans KR';}
+.main_people_name_en {font-family: 'Montserrat'; font-size: 20px; letter-spacing: -0.5px;}
+.main_people_career {display: flex; align-items: center;}
+.main_people_career_dot { width: 6px; height: 6px; border-radius: 3px; background-color:rgb(194,122,52); margin: 0 10px 0 0; }
+
+
+.main_people_2 {width: 856px; height: 590px; display: flex; flex-direction: row-reverse;  }
+.main_people_2_img {width: 470px; height: 590px; background-image: url(../img/mp_img02.jpg);}
+.main_people_2_text {width: 420px; height:auto; background-color: white; margin: 244px -45px 0 0 ; padding: 66px 66px;}
+
+.main_people_2 .main_people_career { display: flex; align-items: center; flex-direction: row-reverse;}
+
+.main_people_2 .main_people_career_dot{width: 6px; height: 6px; border-radius: 3px; background-color: rgb(194, 122, 52); margin: 0 0 0 10px;}
+
+.main_people_3 {width: 824px; height: 590px; display: flex; flex-direction: row-reverse; }
+.main_people_3_img {width: 400px; height: 500px; background-image: url(../img/mp_img03.jpg);}
+.main_people_3_text {width: 420px; height:290px; background-color: white; margin: 220px -45px 0 0 ; padding: 66px 66px 0 0 ;}
+.main_people_3 .main_people_career { display: flex; align-items: center; flex-direction: row-reverse;}
+.main_people_3 .main_people_career_dot{width: 6px; height: 6px; border-radius: 3px; background-color: rgb(194, 122, 52); margin: 0 0 0 10px;}
+
+.text_right { text-align: right;}
+
+
+
+
+
+
+
+/* Main Room CSS */
+.main_room_wrap {width: 100%; height: auto; padding:200px 0; margin: 0 auto;}
+.main_room {width: 1720px; height: auto; margin: 0 auto; display: flex; color:white; text-align: center; }
+.main_room_li {width:269px; height: 621px; margin: 0 10px; display:flex; flex-direction: column; justify-content: center; position:relative;} 
+.main_room li:nth-child(1) {background-image: url(../img/mh_img01.jpg);}
+.main_room li:nth-child(2) {background-image: url(../img/mh_img02.jpg);}
+.main_room li:nth-child(3) {width:820px; background-image: url(../img/mh_img03.jpg);}
+.main_room li:nth-child(4) {background-image: url(../img/mh_img04.jpg);}
+
+.main_room_li p:nth-child(1) {font-size: 22px; letter-spacing: -0.55px;}
+.main_room_li h2 {font-size: 26px; letter-spacing: -0.65px; }
+.main_room_li:nth-child(3) h2 {font-size:50px; margin: 0 0 10px;}
+.main_room_more {position: absolute; bottom:35px; right:35px;}
+
+
+
+
+
+
+/* Main Insta Css */
+.main_insta_wrap {width: 100%; height: auto; padding:120px 0;background-color: rgb(245,245,245);}
+.main_insta {width: 1720px; height: auto; margin: 0 auto; display: flex; text-align: center; flex-wrap:wrap; }
+.main_insta li {width:410px; height: 410px; margin: 10px 10px; display:flex; flex-direction: column; justify-content: center; position: relative; align-items: center; } 
+
+.main_insta li:nth-child(2) {background-image: url(../img/insta01.jpg);}
+.main_insta li:nth-child(3) {background-image: url(../img/insta02.jpg);}
+.main_insta li:nth-child(4) {background-image: url(../img/insta03.jpg);}
+.main_insta li:nth-child(5) {background-image: url(../img/insta04.jpg);}
+.main_insta li:nth-child(6) {background-image: url(../img/insta05.jpg);}
+.main_insta li:nth-child(7) {background-image: url(../img/insta06.jpg);}    
+.main_insta li:nth-child(8) {background-image: url(../img/insta07.jpg);} 
+
+.main_insta li img {width: 135px;}
+.main_insta li a {width: 100%; height:100%; position:absolute; top:0; left:0;}
+
+/* Main Contact */
+.main_contact_wrap { width: 100%; height: auto; }
+
+.main_contact {position:relative;}
+
+.main_contact_info {width:850px; height:513px; display: flex; margin: 140px 102px; justify-content: flex-end; position:absolute; top: 0; right: 0; background-color: white;}
+
+.main_contact_info_left {width: 255px; height: auto; background-image: url(../img/menu_benner_m.jpg); }
+
+.main_contact_info_left div {width: 117px; height: 117px; background-color: #c27a34; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+
+.main_contact_info_left img {width: 40px; height:40px; }
+
+.main_contact_info_left p {color: white; font-size: 18px; }
+
+.main_contact_info_right {width:595px; height: auto; padding: 60px 60px 20px 60px;}
+
+.main_contact_info_right p:nth-of-type(2) {margin: 15px 0 0 0;}
+
+.main_contact_info_right p:nth-of-type(3) {margin: 10px 0 0 0;}
+
+.main_contact_info_phone {margin: 20px 0 0 0; border: 1px solid rgb(255,255,255,0.5); display: flex;}
+.main_contact_info_phone img {width: 30px; height: 30px; margin: 0 60px 0 0;}
+
+.main_contact_info_opentime {margin: 20px 0 0 0; border: 1px solid rgb(255,255,255,0.5); display: flex;}
+.main_contact_info_opentime img {width: 30px; height: 30px; margin: 0 60px 0 0;}
+
+
+/* Footer CSS */
+footer { width: 100%; padding: 60px 0; background-color: rgb(56, 52, 49);}
+
+.footer_ul {width: 1700px; display: flex; margin: 0 auto;} 
+.footer_li_left { width: 400px; }
+.footer_li_center { width: 900px; }
+.footer_li_center p:nth-child(1){ color: rgb(206, 192, 181);}
+.footer_li_center p:nth-child(2){ color: rgb(170,152,138);}
+.footer_li_center p:nth-child(3){ color: rgb(120,102,89);}
+.footer_li_right { width: 400px; display: flex; justify-content: flex-end; align-items: flex-start;}
+
+.footer_a_final {height: 50px; margin: 0 20px 0 0; }
+.footer_a_insta {height: 50px; width: 50px; margin: 0 20px 0 0 ; border-radius: 25px; background-color: rgb(85,81,77); display: flex; justify-content: center; align-items: center;}
+
+.footer_a_family {width: 200px; height: 50px; padding: 0 45px; background-color: rgb(194, 122, 52); border-radius: 25px;}
+.footer_a_family p {line-height: 50px; color: white;}
